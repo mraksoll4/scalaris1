@@ -41,7 +41,7 @@ QTableView, QTableWidget, QTreeWidget { background-color: #172F49; alternate-bac
 QTableView::item, QTableWidget::item, QTreeWidget::item { font-size: 10pt; font-family: "Roboto"; background-color: #172F49; }
 QTableView::item:alternate, QTableWidget::item:alternate, QTreeWidget::item:alternate { background-color: #0F2743; }
 QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::selected { color: white; background-color: #016AFF; }
-QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #546e7a; border-style: none; border: 0; }
+QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #FFF; border-style: none; border: 0; }
 QTableView QHeaderView::section, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { font-size: 9pt; color: #FFF; font-family: "Roboto"; padding: 6px; }
 QTableView QHeaderView::section::selected, QTableWidget QHeaderView::section::selected, QTreeWidget QHeaderView::section::selected { color: white; }
 QTableView::indicator:checked, QTableWidget::indicator:checked, QTreeWidget::indicator:checked { image: url(:/redesign/checkmark-on); }
