@@ -233,7 +233,7 @@ bool Consensus::CheckTxInputs(const CTransaction& tx, CValidationState& state, c
         }
     }
 
-    if (tx.IsCoinStake()) { // Blocknet does not handle PoS coinstake fee checks here (see validation.cpp ConnectBlock)
+    if (tx.IsCoinStake()) { // Scalaris does not handle PoS coinstake fee checks here (see validation.cpp ConnectBlock)
         txfee = 0;
         return true;
     }

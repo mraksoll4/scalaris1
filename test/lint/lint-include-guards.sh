@@ -9,6 +9,7 @@
 export LC_ALL=C
 HEADER_ID_PREFIX="BITCOIN_"
 HEADER_ID_PREFIX2="BLOCKNET_"
+HEADER_ID_PREFIX3="SCALARIS_"
 HEADER_ID_SUFFIX="_H"
 
 REGEXP_EXCLUDE_FILES_WITH_PREFIX="src/(crypto/ctaes/|leveldb/|secp256k1/|tinyformat.h|univalue/|json/)"
@@ -19,12 +20,13 @@ do
     HEADER_ID_BASE=$(cut -f2- -d/ <<< "${HEADER_FILE}" | sed "s/\.h$//g" | tr / _ | tr "[:lower:]" "[:upper:]")
     HEADER_ID="${HEADER_ID_PREFIX}${HEADER_ID_BASE}${HEADER_ID_SUFFIX}"
     HEADER_ID2="${HEADER_ID_PREFIX2}${HEADER_ID_BASE}${HEADER_ID_SUFFIX}"
-    if [[ $(grep -cE "^#(ifndef|define) ${HEADER_ID}" "${HEADER_FILE}") != 2 && $(grep -cE "^#(ifndef|define) ${HEADER_ID2}" "${HEADER_FILE}") != 2 ]]; then
+	HEADER_ID3="${HEADER_ID_PREFIX3}${HEADER_ID_BASE}${HEADER_ID_SUFFIX}"
+    if [[ $(grep -cE "^#(ifndef|define) ${HEADER_ID}" "${HEADER_FILE}") != 3 && $(grep -cE "^#(ifndef|define) ${HEADER_ID3}" "${HEADER_FILE}") != 3 ]]; then
         echo "${HEADER_FILE} seems to be missing the expected include guard:"
-        echo "  #ifndef ${HEADER_ID2}"
-        echo "  #define ${HEADER_ID2}"
+        echo "  #ifndef ${HEADER_ID3}"
+        echo "  #define ${HEADER_ID3}"
         echo "  ..."
-        echo "  #endif // ${HEADER_ID2}"
+        echo "  #endif // ${HEADER_ID3}"
         echo
         EXIT_CODE=1
     fi

@@ -34,7 +34,7 @@ static constexpr int64_t TIMESTAMP_WINDOW = MAX_FUTURE_BLOCK_TIME;
  *
  * Ref: https://github.com/bitcoin/bitcoin/pull/1026
  */
-static constexpr int64_t MAX_BLOCK_TIME_GAP = 15 * 60; // Blocknet 15 minutes
+static constexpr int64_t MAX_BLOCK_TIME_GAP = 15 * 60; // Scalaris 15 minutes
 
 class CBlockFileInfo
 {
@@ -486,7 +486,7 @@ public:
         READWRITE(nMoneySupply);
         READWRITE(nFlags);
         READWRITE(nStakeModifier);
-        if (IsProofOfStake()) { // TODO Blocknet PoS do we need to store these PoS fields on the index?
+        if (IsProofOfStake()) { // TODO Scalaris PoS do we need to store these PoS fields on the index?
             READWRITE(prevoutStake);
             READWRITE(nStakeAmount);
             READWRITE(hashStakeBlock);

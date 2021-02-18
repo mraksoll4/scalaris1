@@ -1,6 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2018 The Bitcoin Core developers
 // Copyright (c) 2017-2020 The Blocknet developers
+// Copyright (c) 2020-2021 The Scalaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -307,7 +308,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("3.16.3.126"); // Blocknet update services or use dns
+        vSeeds.emplace_back("3.16.3.126"); // Scalaris update services or use dns
         vSeeds.emplace_back("18.224.130.185");
         vSeeds.emplace_back("18.213.44.27");
         vSeeds.emplace_back("34.196.102.239");

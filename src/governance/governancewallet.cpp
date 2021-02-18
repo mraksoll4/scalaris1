@@ -210,7 +210,7 @@ bool SubmitVotes(const std::vector<ProposalVote> & proposalVotes, const std::vec
         totalBalance += wallet->GetBalance() + wallet->GetImmatureBalance();
     }
     if (totalBalance <= params.voteBalance) {
-        *failReasonRet = strprintf("Not enough coin to cast a vote, more than %s BLOCK is required, including a small "
+        *failReasonRet = strprintf("Not enough coin to cast a vote, more than %s SCA is required, including a small "
                                    "voting input for vote validation and network fees (transaction fee for vote submission)",
                                    FormatMoney(params.voteBalance));
         return error(failReasonRet->c_str());
@@ -447,7 +447,7 @@ bool SubmitVotes(const std::vector<ProposalVote> & proposalVotes, const std::vec
             cc.fAllowOtherInputs = false;
             cc.destChange = CTxDestination(inputsInUse.begin()->first); // pay change to the first input coin
             FeeCalculation feeCalc;
-            // TODO Blocknet accurate input size estimation required
+            // TODO Scalaris accurate input size estimation required
             const auto feeBytes = static_cast<unsigned int>(inputsInUse.size()*180) // inputs (~180 bytes)
                                   + static_cast<unsigned int>(voteOuts.size()*(MAX_OP_RETURN_RELAY+75)) // vote outs (~235 bytes)
                                   + static_cast<unsigned int>(inputsInUse.size()*50); // change, 1 per input (~50 bytes)
