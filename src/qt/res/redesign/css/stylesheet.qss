@@ -8,7 +8,7 @@
 
 #hdiv { border: 1px solid #172E48; height: 1px; }
 #vdiv { border: 1px solid #172E48; width: 1px; }
-#coin { font-size: 10pt; color: white; font-family: "Roboto"; padding: 12px; background-color: #FFF; text-align: left; }
+#coin { font-size: 10pt; color: white; font-family: "Roboto"; padding: 12px; background-color: #547e7a; text-align: left; }
 #header { font-size: 12pt; color: white; font-family: "Roboto"; }
 #standard { font-size: 12pt; color: white; font-family: "Roboto"; font-weight: 25; }
 #warning { font-size: 9pt; color: red; padding-left: 2px; margin-left: -2px; }
@@ -43,7 +43,7 @@ QTableView::item:alternate, QTableWidget::item:alternate, QTreeWidget::item:alte
 QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::selected { color: white; background-color: #016AFF; }
 QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #FFF; border-style: none; border: 0; }
 QTableView QHeaderView::section, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { font-size: 9pt; color: #FFF; font-family: "Roboto"; padding: 6px; }
-QTableView QHeaderView::section::selected, QTableWidget QHeaderView::section::selected, QTreeWidget QHeaderView::section::selected { color: white; }
+QTableView QHeaderView::section::selected, QTableWidget QHeaderView::section::selected, QTreeWidget QHeaderView::section::selected { color: #547e7a; }
 QTableView::indicator:checked, QTableWidget::indicator:checked, QTreeWidget::indicator:checked { image: url(:/redesign/checkmark-on); }
 QTableView::indicator:unchecked, QTableWidget::indicator:unchecked, QTreeWidget::indicator:unchecked { image: url(:/redesign/checkmark-off); }
 QTableView::indicator:indeterminate, QTableWidget::indicator:indeterminate, QTreeWidget::indicator:indeterminate { image: url(:/redesign/checkmark-partial); }
@@ -212,12 +212,12 @@ BlocknetTransactionHistory { border: 0; }
 BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
 BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
-BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #FFF; font-family: "Roboto"; color:#6F8097; }
+BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
 BlocknetPeersList QTableView QHeaderView { color: #37475C; background-color: transparent; }
-BlocknetPeersList QTableView QHeaderView::section { background-color: transparent; }
+BlocknetPeersList QTableView QHeaderView::section { background-color: #547e7a; }
 BlocknetPeersList QTableView::item { padding: 3px; }
 BlocknetPeerDetails { border: 1px solid #37475C; background-color: #051937; }
 BlocknetPeerDetails #detailLbl { color: #6F8097; font-size: 12pt; }
