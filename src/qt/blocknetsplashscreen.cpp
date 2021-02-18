@@ -46,7 +46,7 @@ BlocknetSplashScreen::BlocknetSplashScreen(interfaces::Node& node, Qt::WindowFla
 
     // load the bitmap for writing some text over it
     bg = new QLabel(this);
-    auto pixmap = QPixmap(":/redesign/images/BlocknetSplash");
+    auto pixmap = QPixmap(":/redesign/images/ScalarisSplash");
     QSize splashSize = QSize(BGU::spi(960), BGU::spi(640));
     pixmap.setDevicePixelRatio(BGU::dpr());
     pixmap = pixmap.scaled(static_cast<int>(splashSize.width()*pixmap.devicePixelRatio()),

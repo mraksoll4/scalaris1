@@ -434,7 +434,7 @@ RES_ICONS = \
 
 # Blocknet qt resources
 RES_ICONS += \
-  qt/res/redesign/BlocknetSplash.png \
+  qt/res/redesign/ScalarisSplash.png \
   qt/res/redesign/fonts/Roboto/Roboto-Black.ttf \
   qt/res/redesign/fonts/Roboto/Roboto-BlackItalic.ttf \
   qt/res/redesign/fonts/Roboto/Roboto-Bold.ttf \
