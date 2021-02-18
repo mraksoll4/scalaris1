@@ -212,8 +212,7 @@ BlocknetTransactionHistory { border: 0; }
 BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
 BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
-BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
-BlocknetTransactionHistory QHeaderView::section::item { padding: 3px; }
+BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 1px solid #fe00f6; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
