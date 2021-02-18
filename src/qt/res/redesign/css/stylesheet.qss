@@ -122,9 +122,9 @@ BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 
 BlocknetProposals #h4 { padding-left: 1px; }
 BlocknetProposals #title { font-size: 12pt; color: white; font-family: "Roboto"; }
-BlocknetProposals QTableWidget { color: white; background-color: transparent; }
-BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
-BlocknetProposals QTableWidget QHeaderView::section { background-color: transparent; }
+BlocknetProposals QTableWidget { color: white; background-color: #FFF; }
+BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: #f30; }
+BlocknetProposals QTableWidget QHeaderView::section { background-color: #3f0; }
 BlocknetProposals QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetProposals QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
 BlocknetProposals QTableWidget #indicator[state="2"] { background-color: #FB7F70; }
