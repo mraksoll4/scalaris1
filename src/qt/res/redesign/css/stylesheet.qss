@@ -34,15 +34,15 @@ QCalendarWidget QWidget#qt_calendar_navigationbar { background-color: #051937; }
 QCalendarWidget QWidget { alternate-background-color: #051937; }
 QCalendarWidget QAbstractItemView:enabled { color: white; background-color: #051937; font-size: 13pt; font-family: "Roboto"; }
 QCalendarWidget QAbstractItemView:disabled { color: #666; }
-QCalendarWidget QMenu { color: white; background-color: #eff21c; font-size: 10pt; font-family: "Roboto"; }
+QCalendarWidget QMenu { color: white; background-color: #FFF; font-size: 10pt; font-family: "Roboto"; }
 QCalendarWidget QSpinBox { color: white; background-color: #051937; font-size: 10pt; font-family: "Roboto"; }
 QCalendarWidget QToolButton { color: white; background-color: #051937; font-family: "Roboto"; }
 QTableView, QTableWidget, QTreeWidget { background-color: #172F49; alternate-background-color: #0F2743; border-style: none; border: 0; }
 QTableView::item, QTableWidget::item, QTreeWidget::item { font-size: 10pt; font-family: "Roboto"; background-color: #172F49; }
 QTableView::item:alternate, QTableWidget::item:alternate, QTreeWidget::item:alternate { background-color: #0F2743; }
 QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::selected { color: white; background-color: #016AFF; }
-QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #fb0303; border-style: none; border: 0; }
-QTableView QHeaderView::section, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { font-size: 9pt; color: #f70ad4; font-family: "Roboto"; padding: 6px; }
+QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #547e7a; border-style: none; border: 0; }
+QTableView QHeaderView::section, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { font-size: 9pt; color: #FFF; font-family: "Roboto"; padding: 6px; }
 QTableView QHeaderView::section::selected, QTableWidget QHeaderView::section::selected, QTreeWidget QHeaderView::section::selected { color: #547e7a; }
 QTableView::indicator:checked, QTableWidget::indicator:checked, QTreeWidget::indicator:checked { image: url(:/redesign/checkmark-on); }
 QTableView::indicator:unchecked, QTableWidget::indicator:unchecked, QTreeWidget::indicator:unchecked { image: url(:/redesign/checkmark-off); }
@@ -213,6 +213,7 @@ BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
 BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
 BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
+BlocknetTransactionHistory QHeaderView::section::item { padding: 3px; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
