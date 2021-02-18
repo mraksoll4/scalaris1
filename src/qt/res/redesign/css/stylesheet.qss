@@ -64,7 +64,7 @@ BlocknetLeftMenu #versionLbl { font-size: 7pt; color: #FFF; font-family: "Roboto
 
 BlocknetToolBar { padding-right: 10px; }
 BlocknetToolBar #progress { background-color: #546e7a; }
-BlocknetToolBar #progress QProgressBar { font-size: 9pt; color: white; font-family: "Roboto"; background-color: #000; }
+BlocknetToolBar #progress QProgressBar { font-size: 9pt; color: white; font-family: "Roboto"; background-color: #FFF; }
 BlocknetToolBar #progress QProgressBar[os="win"] { color: black; }
 BlocknetToolBar #progress QProgressBar::chunk { background-color: #547e7a; }
 BlocknetToolBar #peersLbl { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
@@ -81,7 +81,7 @@ BlocknetDropdown { font-size: 10pt; font-family: "Roboto"; background: QLinearGr
 BlocknetDropdown::drop-down { width: 35px; border: 0px; }
 BlocknetDropdown QAbstractItemView { background: #6F8097; background-color: #6F8097; }
 
-BlocknetWallet #contentBox { background-color: #546e7a; }
+BlocknetWallet #contentBox { background-color: #000; }
 BlocknetLineEdit { font-size: 10pt; color: white; font-family: "Roboto"; padding-left: 15px; border: 1px solid #6F8097; border-radius: 0; background-color: rgba(0,0,0,0); }
 BlocknetLineEdit:disabled { border: 1px solid #666666; color: #666666; }
 BlocknetLineEdit[error=true] { border: 1px solid red; }
