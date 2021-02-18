@@ -1,13 +1,13 @@
 Blocknet
 =====================================
 
-[![Build Status](https://travis-ci.org/blocknetdx/blocknet.svg?branch=4.0.0)](https://travis-ci.org/blocknetdx/blocknet)
+[![Build Status](https://travis-ci.org/mraksoll4/blocknet.svg?branch=4.0.0)](https://travis-ci.org/mraksoll4/blocknet)
 
 https://blocknet.co
 
 Welcome to the Blocknet repository. This repo is for the Blocknet Protocol, a 2nd layer blockchain interoperability protocol that enables communication, interaction, and exchange between different blockchains. This allows for the development of multi-chain applications and blockchain microservices, creating exponentially more capabilities and possibilities for the blockchain ecosystem.
 
-[Contributors are welcome!](https://github.com/scalaris-project/scalaris/blob/master/CONTRIBUTING.md)
+[Contributors are welcome!](https://github.com/mraksoll4/blocknet/blob/master/CONTRIBUTING.md)
 
 [Website](https://blocknet.co) | [API](https://api.blocknet.co) | [Documentation](https://docs.blocknet.co) | [Discord](https://discord.gg/2e6s7H8)
 -------------|-------------|-------------|-------------
@@ -98,7 +98,7 @@ Development Process
 
 The `master` branch is stable and will match the latest release. Development 
 branches are indicated by the version number and may or may not be stable.
-[Tags](https://github.com/scalaris-project/scalaris/tags) are created
+[Tags](https://github.com/mraksoll4/blocknet/tags) are created
 regularly to indicate new official, stable release versions of Blocknet.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
