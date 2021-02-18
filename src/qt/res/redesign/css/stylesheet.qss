@@ -65,7 +65,7 @@ BlocknetLeftMenu #versionLbl { font-size: 7pt; color: #FFF; font-family: "Roboto
 BlocknetToolBar { padding-right: 10px; }
 BlocknetToolBar #progress { background-color: #546e7a; }
 BlocknetToolBar #progress QProgressBar { font-size: 9pt; color: white; font-family: "Roboto"; background-color: #FFF; }
-BlocknetToolBar #progress QProgressBar[os="win"] { color: black; }
+BlocknetToolBar #progress QProgressBar[os="win"] { color: #FFF; }
 BlocknetToolBar #progress QProgressBar::chunk { background-color: #547e7a; }
 BlocknetToolBar #peersLbl { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
 BlocknetToolBar #lock { background-color: #016AFF; border-radius: 3px; }
@@ -81,7 +81,7 @@ BlocknetDropdown { font-size: 10pt; font-family: "Roboto"; background: QLinearGr
 BlocknetDropdown::drop-down { width: 35px; border: 0px; }
 BlocknetDropdown QAbstractItemView { background: #6F8097; background-color: #6F8097; }
 
-BlocknetWallet #contentBox { background-color: #000; }
+BlocknetWallet #contentBox { background-color: #546e7a; }
 BlocknetLineEdit { font-size: 10pt; color: white; font-family: "Roboto"; padding-left: 15px; border: 1px solid #6F8097; border-radius: 0; background-color: rgba(0,0,0,0); }
 BlocknetLineEdit:disabled { border: 1px solid #666666; color: #666666; }
 BlocknetLineEdit[error=true] { border: 1px solid red; }
@@ -130,7 +130,7 @@ BlocknetProposals QTableWidget #indicator[state="1"] { background-color: #F8BF1C
 BlocknetProposals QTableWidget #indicator[state="2"] { background-color: #FB7F70; }
 BlocknetProposals QTableWidget::item { padding: 3px; }
 BlocknetProposalsVoteDialog, BlocknetProposalsDetailsDialog { background-color: #546e7a; }
-BlocknetProposalsVoteDialog #description, BlocknetProposalsDetailsDialog #description { font-size: 10pt; color: #6F8097; font-family: "Roboto"; }
+BlocknetProposalsVoteDialog #description, BlocknetProposalsDetailsDialog #description { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
 BlocknetProposalsVoteDialog #value, BlocknetProposalsDetailsDialog #value { font-size: 10pt; color: white; font-family: "Roboto"; bold: true; }
 BlocknetProposalsVoteDialog QRadioButton, BlocknetProposalsDetailsDialog QRadioButton, BlocknetProposalsVoteDialog QCheckBox, BlocknetProposalsDetailsDialog QCheckBox { font-size: 11pt; }
 BlocknetProposalsVoteDialog QScrollArea, BlocknetProposalsVoteDialog #contentFrame { background-color:transparent; }
@@ -211,8 +211,8 @@ BlocknetAddressEditDialog #readOnly:disabled, BlocknetAddressAddDialog #readOnly
 BlocknetTransactionHistory { border: 0; }
 BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
-BlocknetTransactionHistory QHeaderView { border: 0; background-color: #546e7a; outline: 0; }
-BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #546e7a; font-family: "Roboto"; color:#6F8097; }
+BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
+BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #FFF; font-family: "Roboto"; color:#6F8097; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
