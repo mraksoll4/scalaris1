@@ -123,8 +123,8 @@ BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 BlocknetProposals #h4 { padding-left: 1px; }
 BlocknetProposals #title { font-size: 12pt; color: white; font-family: "Roboto"; }
 BlocknetProposals QTableWidget { color: white; background-color: #FFF; }
-BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: #f30; }
-BlocknetProposals QTableWidget QHeaderView::section { background-color: #3f0; }
+BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
+BlocknetProposals QTableWidget QHeaderView::section { background-color: #547e7a; }
 BlocknetProposals QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetProposals QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
 BlocknetProposals QTableWidget #indicator[state="2"] { background-color: #FB7F70; }
@@ -142,7 +142,7 @@ BlocknetServiceNodes #h4 { padding-left: 1px; }
 BlocknetServiceNodes #title { font-size: 12pt; color: white; font-family: "Roboto"; }
 BlocknetServiceNodes QTableWidget { color: white; background-color: transparent; }
 BlocknetServiceNodes QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
-BlocknetServiceNodes QTableWidget QHeaderView::section { background-color: transparent; }
+BlocknetServiceNodes QTableWidget QHeaderView::section { background-color: #547e7a; }
 BlocknetServiceNodes QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetServiceNodes QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
 BlocknetServiceNodes QTableWidget #indicator[state="2"] { background-color: #FB7F70; }
@@ -195,7 +195,7 @@ BlocknetAddressBook #title { font-size: 11pt; color: white; font-family: "Roboto
 BlocknetAddressBook QTableWidget { color: white; background-color: transparent; }
 BlocknetAddressBook QTableWidget QHeaderView { color: #37475C; }
 BlocknetAddressBook QTableWidget::item { padding: 3px; }
-BlocknetAddressBook QTableWidget::item::selected BlocknetLabelBtn { color: white; }
+BlocknetAddressBook QTableWidget::item::selected BlocknetLabelBtn { color: #547e7a; }
 BlocknetAddressBookDialog { background-color: #172F49; }
 
 BlocknetAccounts #h4 { padding-left: 1px; }
