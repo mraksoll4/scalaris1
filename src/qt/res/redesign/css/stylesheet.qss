@@ -116,7 +116,7 @@ BlocknetTabBtn:pressed { background-color: transparent; }
 BlocknetKeyDialog { background-color: #172F49; }
 BlocknetKeyDialog #h2 { background-color: #172F49; border: 0; }
 BlocknetKeyDialog #highlight { font-size: 10pt; font-family: "Roboto"; color: white; }
-BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #6F8097; }
+BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #f0f; }
 BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 
 BlocknetProposals #h4 { padding-left: 1px; }
@@ -152,14 +152,14 @@ BlocknetServiceNodeDetailsDialog #value { font-size: 10pt; color: white; font-fa
 BlocknetServiceNodeDetailsDialog QLabel { font-size: 13pt; color: white; font-family: "Roboto"; }
 
 BlocknetDashboard #h4 { padding-left: 1px; }
-BlocknetDashboard #balanceLbl { font-size: 14pt; color: #6F8097; font-family: "Roboto"; padding-top: 40px; }
-BlocknetDashboard #pendingLbl { font-size: 10pt; color: #6F8097; font-family: "Roboto"; font-weight: 25; }
+BlocknetDashboard #balanceLbl { font-size: 14pt; color: #f0f; font-family: "Roboto"; padding-top: 40px; }
+BlocknetDashboard #pendingLbl { font-size: 10pt; color: #f0f; font-family: "Roboto"; font-weight: 25; }
 BlocknetDashboard #pendingValueLbl { font-size: 10pt; color: white; font-family: "Roboto"; font-weight: 25; }
-BlocknetDashboard #immatureLbl { font-size: 10pt; color: #6F8097; font-family: "Roboto"; font-weight: 25; }
+BlocknetDashboard #immatureLbl { font-size: 10pt; color: #f0f; font-family: "Roboto"; font-weight: 25; }
 BlocknetDashboard #immatureValueLbl { font-size: 10pt; color: white; font-family: "Roboto"; font-weight: 25; }
-BlocknetDashboard #totalLbl { font-size: 10pt; color: #6F8097; font-family: "Roboto"; font-weight: 25; }
+BlocknetDashboard #totalLbl { font-size: 10pt; color: #f0f; font-family: "Roboto"; font-weight: 25; }
 BlocknetDashboard #totalValueLbl { font-size: 10pt; color: white; font-family: "Roboto"; font-weight: 25; }
-BlocknetDashboard #recentTransactionsLbl { font-size: 14pt; color: #6F8097; font-family: "Roboto"; }
+BlocknetDashboard #recentTransactionsLbl { font-size: 14pt; color: #f0f; font-family: "Roboto"; }
 
 BlocknetSendFunds { padding-left: 30px; padding-right: 10px; }
 BlocknetSendFunds #contentScrollArea { min-width: 730px; background-color: transparent; }
