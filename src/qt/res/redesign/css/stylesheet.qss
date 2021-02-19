@@ -110,10 +110,9 @@ BlocknetLabelBtn:pressed { color: white; }
 BlocknetLabelBtn:disabled { color: #6F8097; }
 BlocknetDialog { background-color: #172F49; }
 BlocknetDialog #h3 { background-color: #172F49; border: 0; }
-BlocknetTabBtn { font-size: 10pt; color: #6F8097; font-family: "Roboto"; background-color: transparent; }
-BlocknetTabBtn:checked { color: QLinearGradient(x1: 0, x2: 1, stop: 0 #00C9FF, stop: 1 #4BF5C6); background-color: transparent; }
+BlocknetTabBtn { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; background-color: transparent; }
+BlocknetTabBtn:checked { color: #FFF; }
 BlocknetTabBtn:pressed { background-color: transparent; }
-BlocknetTabBtn #subLine { background-color: QLinearGradient(x1: 0, x2: 1, stop: 0 #00C9FF, stop: 1 #4BF5C6); }
 BlocknetKeyDialog { background-color: #172F49; }
 BlocknetKeyDialog #h2 { background-color: #172F49; border: 0; }
 BlocknetKeyDialog #highlight { font-size: 10pt; font-family: "Roboto"; color: white; }
@@ -212,8 +211,7 @@ BlocknetTransactionHistory { border: 0; }
 BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
 BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
-BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 1px solid #546e7a; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
-BlocknetTransactionHistory QHeaderView::item { padding: 3px; }
+BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 0; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
