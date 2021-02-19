@@ -116,7 +116,7 @@ BlocknetTabBtn:pressed { background-color: transparent; }
 BlocknetKeyDialog { background-color: #172F49; }
 BlocknetKeyDialog #h2 { background-color: #172F49; border: 0; }
 BlocknetKeyDialog #highlight { font-size: 10pt; font-family: "Roboto"; color: white; }
-BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #f0f; }
+BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #6F8097; }
 BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 
 BlocknetProposals #h4 { padding-left: 1px; }
