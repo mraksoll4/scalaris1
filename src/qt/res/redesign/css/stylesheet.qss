@@ -195,7 +195,7 @@ BlocknetAddressBook #title { font-size: 11pt; color: white; font-family: "Roboto
 BlocknetAddressBook QTableWidget { color: white; background-color: transparent; }
 BlocknetAddressBook QTableWidget QHeaderView { color: #37475C; }
 BlocknetAddressBook QTableWidget::item { padding: 3px; }
-BlocknetAddressBook QTableWidget::item::selected BlocknetLabelBtn { color: #547e7a; }
+BlocknetAddressBook QTableWidget::item::selected BlocknetLabelBtn { color: white; }
 BlocknetAddressBookDialog { background-color: #172F49; }
 
 BlocknetAccounts #h4 { padding-left: 1px; }
@@ -212,7 +212,8 @@ BlocknetTransactionHistory { border: 0; }
 BlocknetTransactionHistory::item { border: 0; qproperty-alignment:left; }
 BlocknetTransactionHistory::item:selected { color: white; selection-background-color: #016AFF; }
 BlocknetTransactionHistory QHeaderView { border: 0; background-color: #FFF; outline: 0; }
-BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 1px solid #fe00f6; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
+BlocknetTransactionHistory QHeaderView::section { font-size: 10pt; border: 1px solid #546e7a; qproperty-alignment:left; background-color: #547e7a; font-family: "Roboto"; color:#FFF; }
+BlocknetTransactionHistory QHeaderView::item { padding: 3px; }
 BlocknetTransactionHistory #dateRange QLabel { color: white; }
 
 BlocknetPeersList QTableView { color: white; background-color: transparent; }
