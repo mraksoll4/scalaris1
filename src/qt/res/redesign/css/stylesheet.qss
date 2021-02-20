@@ -13,8 +13,7 @@
 #standard { font-size: 12pt; color: white; font-family: "Roboto"; font-weight: 25; }
 #warning { font-size: 9pt; color: red; padding-left: 2px; margin-left: -2px; }
 #stretch { border: 0; background-color: transparent; }
-WalletFrame { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #28eddd, stop: 1 #dbf4f6); }
-BlocknetWallet { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #fc3203, stop: 1 #93f416); }
+BlocknetWallet { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); } /* Global wallet background */
 QMessageBox { background-color: #172F49; }
 QMessageBox QLabel { font-size: 13pt; color: white; font-family: "Roboto"; font-weight: 25; }
 QScrollArea, QScrollArea #scrollAreaWidgetContents, QScrollArea #content { border: 0; }
