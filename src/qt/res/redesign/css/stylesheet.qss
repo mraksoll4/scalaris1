@@ -58,8 +58,8 @@ BlocknetLeftMenu BlocknetIconLabel QLabel[selected=true] { color: #FFF; } /* sel
 BlocknetLeftMenu BlocknetIconLabel QLabel[selected=false] { color: #c0c0c0; } /* unselectet  button left manu color*/
 BlocknetLeftMenu BlocknetIconLabel#disabled QLabel { color: #546e7a; } /* unselectet  button left manu color*/
 BlocknetLeftMenu#box2 { background-color: rgba(249, 7, 7, 50%); }
-BlocknetLeftMenu# .QFrame#box2 { background-color: rgba(0, 0, 0, 50%); }
-BlocknetLeftMenu# .QVBoxLayout#box2 { background-color: rgba(235, 237, 40, 50%); }
+BlocknetLeftMenu .QFrame#box2 { background-color: rgba(0, 0, 0, 50%); }
+BlocknetLeftMenu .QVBoxLayout#box2 { background-color: rgba(235, 237, 40, 50%); }
 box2 { background-color: rgba(211, 92, 232, 50%); }
 BlocknetLeftMenu #balanceLbl { font-size: 9pt; color: #FFF; font-family: "Roboto"; } /* balance text color */
 BlocknetLeftMenu #balanceAmountLbl { font-size: 11pt; color: white; font-family: "Roboto"; } /* Balance ammount text color*/
