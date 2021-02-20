@@ -51,16 +51,16 @@ QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWid
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
 QTreeWidget::branch { color: #CCC; }
 
-BlocknetLeftMenu { background-color: #f03; }
+BlocknetLeftMenu { background-color: transparent; }
 BlocknetLeftMenu BlocknetIconLabel { border: none; text-align: left; }
 BlocknetLeftMenu BlocknetIconLabel QLabel { font-size: 11pt; font-family: "Roboto"; font-weight: normal; }
-BlocknetLeftMenu BlocknetIconLabel QLabel[selected=true] { color: #FFF; }
-BlocknetLeftMenu BlocknetIconLabel QLabel[selected=false] { color: #c0c0c0; }
-BlocknetLeftMenu BlocknetIconLabel#disabled QLabel { color: #546e7a; }
-BlocknetLeftMenu #balanceLbl { font-size: 9pt; color: #FFF; font-family: "Roboto"; }
-BlocknetLeftMenu #balanceAmountLbl { font-size: 11pt; color: white; font-family: "Roboto"; }
-BlocknetLeftMenu #hdiv { border-top: 1px solid #172E48; height: 1px; }
-BlocknetLeftMenu #versionLbl { font-size: 7pt; color: #FFF; font-family: "Roboto"; }
+BlocknetLeftMenu BlocknetIconLabel QLabel[selected=true] { color: #FFF; } /* selected button left manu color */
+BlocknetLeftMenu BlocknetIconLabel QLabel[selected=false] { color: #c0c0c0; } /* unselectet  button left manu color*/
+BlocknetLeftMenu BlocknetIconLabel#disabled QLabel { color: #546e7a; } /* unselectet  button left manu color*/
+BlocknetLeftMenu #balanceLbl { font-size: 9pt; color: #FFF; font-family: "Roboto"; } /* balance text color */
+BlocknetLeftMenu #balanceAmountLbl { font-size: 11pt; color: white; font-family: "Roboto"; } /* Balance ammount text color*/
+BlocknetLeftMenu #hdiv { border-top: 1px solid #172E48; height: 1px; } /* separator line color*/
+BlocknetLeftMenu #versionLbl { font-size: 7pt; color: #FFF; font-family: "Roboto"; } /* version text color*/
 
 BlocknetToolBar { padding-right: 10px; }
 BlocknetToolBar #progress { background-color: #546e7a; }
