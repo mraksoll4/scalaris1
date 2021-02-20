@@ -22,16 +22,6 @@ BlocknetLeftMenu::BlocknetLeftMenu(QFrame *parent) : QFrame(parent), layout(new 
     layout->setContentsMargins(0, BGU::spi(20), 0, 0);
     layout->setSpacing(BGU::spi(10));
 
-    QPixmap pm(":/redesign/white_blocknet_logo.png");
-    pm.setDevicePixelRatio(BGU::dpr());
-    logo = new QLabel(tr("Scalaris Logo"));
-    const auto lw = static_cast<qreal>(BGU::spi(150));
-    const auto pw = static_cast<qreal>(pm.width());
-    const auto ph = static_cast<qreal>(pm.height());
-    logo->setFixedSize((int)lw, (int)(ph / pw * lw));
-    logo->setPixmap(pm.scaled(logo->width()*pm.devicePixelRatio(), logo->height()*pm.devicePixelRatio(),
-            Qt::KeepAspectRatio, Qt::SmoothTransformation));
-
     balanceLbl = new QLabel(tr("Available Balance:"));
     balanceLbl->setObjectName("balanceLbl");
     balanceAmountLbl = new QLabel;
@@ -116,7 +106,6 @@ BlocknetLeftMenu::BlocknetLeftMenu(QFrame *parent) : QFrame(parent), layout(new 
     boxBalance->layout()->setSpacing(BGU::spi(2));
     boxBalance->layout()->addWidget(balanceLbl);
     boxBalance->layout()->addWidget(balanceAmountLbl);
-    dynamic_cast<QVBoxLayout*>(box1->layout())->addWidget(logo, 0, Qt::AlignLeft);
     dynamic_cast<QVBoxLayout*>(box1->layout())->addWidget(boxBalance, 0, Qt::AlignLeft);
 
     auto *box2 = new QFrame;
