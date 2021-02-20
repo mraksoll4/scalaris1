@@ -101,6 +101,7 @@ BlocknetLeftMenu::BlocknetLeftMenu(QFrame *parent) : QFrame(parent), layout(new 
     box1->setLayout(new QVBoxLayout);
     box1->setContentsMargins(padding);
     auto *boxBalance = new QFrame;
+    boxBalance->setIcon(":/redesign/Active/AnnouncementsIcon.png", ":/redesign/Inactive/AnnouncementsIcon.png");
     boxBalance->setLayout(new QVBoxLayout);
     boxBalance->layout()->setContentsMargins(QMargins());
     boxBalance->layout()->setSpacing(BGU::spi(2));
