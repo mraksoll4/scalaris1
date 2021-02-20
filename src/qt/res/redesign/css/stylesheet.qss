@@ -51,7 +51,7 @@ QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWid
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
 QTreeWidget::branch { color: #CCC; }
 
-BlocknetLeftMenu { background-color: #051937; }
+BlocknetLeftMenu { background-color: #f03; }
 BlocknetLeftMenu BlocknetIconLabel { border: none; text-align: left; }
 BlocknetLeftMenu BlocknetIconLabel QLabel { font-size: 11pt; font-family: "Roboto"; font-weight: normal; }
 BlocknetLeftMenu BlocknetIconLabel QLabel[selected=true] { color: #FFF; }
