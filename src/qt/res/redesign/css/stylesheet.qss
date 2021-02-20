@@ -13,7 +13,7 @@
 #standard { font-size: 12pt; color: white; font-family: "Roboto"; font-weight: 25; }
 #warning { font-size: 9pt; color: red; padding-left: 2px; margin-left: -2px; }
 #stretch { border: 0; background-color: transparent; }
-WalletFrame { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #051935, stop: 1 #546e7a); }
+WalletFrame { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #28eddd, stop: 1 #dbf4f6); }
 BlocknetWallet { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #fc3203, stop: 1 #93f416); }
 QMessageBox { background-color: #172F49; }
 QMessageBox QLabel { font-size: 13pt; color: white; font-family: "Roboto"; font-weight: 25; }
@@ -82,7 +82,7 @@ BlocknetDropdown { font-size: 10pt; font-family: "Roboto"; background: QLinearGr
 BlocknetDropdown::drop-down { width: 35px; border: 0px; }
 BlocknetDropdown QAbstractItemView { background: #6F8097; background-color: #6F8097; }
 
-BlocknetWallet #contentBox { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #051935, stop: 1 #546e7a); }
+BlocknetWallet #contentBox { background-color: transparent; }
 BlocknetLineEdit { font-size: 10pt; color: white; font-family: "Roboto"; padding-left: 15px; border: 1px solid #6F8097; border-radius: 0; background-color: rgba(0,0,0,0); }
 BlocknetLineEdit:disabled { border: 1px solid #666666; color: #666666; }
 BlocknetLineEdit[error=true] { border: 1px solid red; }
