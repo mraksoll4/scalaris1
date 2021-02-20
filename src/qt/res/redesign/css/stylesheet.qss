@@ -51,7 +51,7 @@ QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWid
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
 QTreeWidget::branch { color: #CCC; }
 
-BlocknetLeftMenu { background-color: #051937; }
+BlocknetLeftMenu { background-color: #f03; }
 BlocknetLeftMenu BlocknetIconLabel { border: none; text-align: left; }
 BlocknetLeftMenu BlocknetIconLabel QLabel { font-size: 11pt; font-family: "Roboto"; font-weight: normal; }
 BlocknetLeftMenu BlocknetIconLabel QLabel[selected=true] { color: #FFF; }
@@ -109,20 +109,20 @@ BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
 BlocknetLabelBtn:disabled { color: #6F8097; }
 BlocknetDialog { background-color: #172F49; }
-BlocknetDialog #h3 { background-color: #172F49; border: 0; }
+BlocknetDialog #h3 { background-color: #f06; border: 0; }
 BlocknetTabBtn { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; background-color: transparent; }
 BlocknetTabBtn:checked { color: #FFF; }
 BlocknetTabBtn:pressed { background-color: transparent; }
-BlocknetKeyDialog { background-color: #172F49; }
-BlocknetKeyDialog #h2 { background-color: #172F49; border: 0; }
-BlocknetKeyDialog #highlight { font-size: 10pt; font-family: "Roboto"; color: white; }
-BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #6F8097; }
-BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
+BlocknetKeyDialog { background-color: #c0f; }
+BlocknetKeyDialog #h2 { background-color: #30f; border: 0; }
+BlocknetKeyDialog #highlight { font-size: 10pt; font-family: "Roboto"; color: #0fc; }
+BlocknetKeyDialog #note { font-size: 10pt; font-family: "Roboto"; color: #3f0; }
+BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: #ff0; }
 
 BlocknetProposals #h4 { padding-left: 1px; }
 BlocknetProposals #title { font-size: 12pt; color: white; font-family: "Roboto"; }
 BlocknetProposals QTableWidget { color: white; background-color: #FFF; }
-BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
+BlocknetProposals QTableWidget QHeaderView { color: #f30; background-color: transparent; }
 BlocknetProposals QTableWidget QHeaderView::section { background-color: #547e7a; }
 BlocknetProposals QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetProposals QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
