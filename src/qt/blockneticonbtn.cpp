@@ -79,9 +79,9 @@ void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
     path.addEllipse(w/2 - cw/2 + linew2, linew2, cw - linew2, ch - linew2);
 
     if (hoverState)
-        p.fillPath(path, QColor(0, 0, 0, 178));
+        p.fillPath(path, QColor(0, 0, 0, 30));
 	else 
-	    p.fillPath(path, QColor(0, 0, 0, 178));
+	    p.fillPath(path, QColor(0, 0, 0, 76));
 
     p.drawPath(path);
     icon->move(w/2 - icon->width()/2, ch/2 - icon->height()/2);
