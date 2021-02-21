@@ -11,8 +11,6 @@
 #include <QPainter>
 
 BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFrame *parent) : QFrame(parent),
-                                                                                             circlew(BGU::spi(84)),
-                                                                                             circleh(BGU::spi(84)),
                                                                                              hoverState(false),
                                                                                              iconLbl(nullptr)
 {
@@ -38,15 +36,14 @@ BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFram
         iconLbl->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         iconLbl->setAlignment(Qt::AlignCenter);
         iconLbl->setWordWrap(true);
-        iconLbl->setFixedWidth(circlew + BGU::spi(30));
-        layout->addSpacing(circleh);
+        iconLbl->setFixedWidth(BGU::spi(30));
         layout->addWidget(iconLbl);
     }
 
     this->adjustSize();
     auto sh = sizeHint();
     if (iconLbl)
-        iconLbl->move(sh.width()/2 - iconLbl->width()/2, circleh);
+        iconLbl->move(sh.width()/2 - iconLbl->width()/2);
     else
         this->setFixedSize(sh.width(), sh.height());
 }
@@ -55,10 +52,10 @@ BlocknetIconBtn::BlocknetIconBtn(const QString &img, QFrame *parent) : BlocknetI
 
 QSize BlocknetIconBtn::sizeHint() const {
     if (iconLbl)
-        return { circlew + BGU::spi(30),
-                 circleh + iconLbl->height() + BGU::spi(1) };
+        return {BGU::spi(30),
+                 iconLbl->height() + BGU::spi(1) };
     else
-        return { circlew + BGU::spi(1), circleh + BGU::spi(1) };
+        return {BGU::spi(1), BGU::spi(1) };
 }
 
 void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
@@ -67,8 +64,6 @@ void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
     const int linew = BGU::spi(2);
     const int linew2 = linew/2;
     auto w = static_cast<qreal>(this->width());
-    auto cw = static_cast<qreal>(circlew);
-    auto ch = static_cast<qreal>(circleh);
 
     QPainter p(this);
     p.setRenderHint(QPainter::HighQualityAntialiasing);
