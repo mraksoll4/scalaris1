@@ -72,14 +72,16 @@ void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
 
     QPainter p(this);
     p.setRenderHint(QPainter::HighQualityAntialiasing);
-    QPen pen(QColor(0, 0, 0, 255), linew, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+    QPen pen(QColor(0, 0, 0, 0), linew, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
     p.setPen(pen);
 
     QPainterPath path;
     path.addEllipse(w/2 - cw/2 + linew2, linew2, cw - linew2, ch - linew2);
 
     if (hoverState)
-        p.fillPath(path, QColor(0, 0, 0, 255));
+        p.fillPath(path, QColor(0, 0, 0, 178));
+	else 
+	    p.fillPath(path, QColor(0, 0, 0, 178));
 
     p.drawPath(path);
     icon->move(w/2 - icon->width()/2, ch/2 - icon->height()/2);
