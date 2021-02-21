@@ -36,18 +36,35 @@ BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFram
         iconLbl->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         iconLbl->setAlignment(Qt::AlignCenter);
         iconLbl->setWordWrap(true);
+        iconLbl->setFixedWidth(BGU::spi(30));
+        layout->addSpacing(BGU::spi(84));
         layout->addWidget(iconLbl);
     }
 
     this->adjustSize();
+	auto sh = sizeHint();
+    if (iconLbl)
+        iconLbl->move(sh.width()/2 - iconLbl->width()/2);
+    else
+        this->setFixedSize(sh.width(), sh.height());
 }
 
 BlocknetIconBtn::BlocknetIconBtn(const QString &img, QFrame *parent) : BlocknetIconBtn(QString(), img, parent) {}
+
+QSize BlocknetIconBtn::sizeHint() const {
+    if (iconLbl)
+        return { BGU::spi(30),
+                 iconLbl->height() + BGU::spi(1) };
+    else
+        return {BGU::spi(1), BGU::spi(1) };
+}
 
 void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
     QFrame::paintEvent(event);
 
     const int linew = BGU::spi(2);
+	const int linew2 = linew/2;
+    auto w = static_cast<qreal>(this->width());
 
     QPainter p(this);
     p.setRenderHint(QPainter::HighQualityAntialiasing);
