@@ -70,11 +70,6 @@ void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
     auto cw = static_cast<qreal>(circlew);
     auto ch = static_cast<qreal>(circleh);
 
-    QPainter p(this);
-    p.setRenderHint(QPainter::HighQualityAntialiasing);
-    QPen pen(QColor(0x74, 0xB2, 0xFE), linew, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
-    p.setPen(pen);
-
     QPainterPath path;
     path.addEllipse(w/2 - cw/2 + linew2, linew2, cw - linew2, ch - linew2);
 
