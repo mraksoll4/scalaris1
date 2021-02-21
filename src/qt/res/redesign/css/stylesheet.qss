@@ -22,11 +22,12 @@ QComboBox QAbstractItemView { background-color: #7b8ca2; font-size: 10pt; color:
 QComboBox QAbstractItemView::item { background-color: #7b8ca2; font-size: 10pt; color: white; font-family: "Roboto"; }
 QRadioButton { font-size: 10pt; font-family: "Roboto"; color: white; spacing: 10px; }
 QRadioButton:disabled { color: #0C2448; }
-QRadioButton:indicator { width: 24px; height: 24px; border: 1px solid #FFF; border-radius: 0; }
-QRadioButton:indicator:checked { background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.52, stop:0 #35f907, stop:0.65 #35f907, stop:0.70 rgba(0,0,0,0), stop:1 rgba(0,0,0,0)); }
+QRadioButton:indicator { width: 24px; height: 24px; border: 1px solid #FFF; border-radius: 12px; }
+QRadioButton:indicator:checked { background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.52, stop:0 #016AFF, stop:0.65 #016AFF, stop:0.70 rgba(0,0,0,0), stop:1 rgba(0,0,0,0)); }
 QRadioButton:indicator:disabled { background-color: transparent; }
 QCheckBox { font-size: 10pt; font-family: "Roboto"; color: white; spacing: 10px; }
-QPushButton#linkBtn { font-size: 10pt; color: #fd0213; font-family: "Roboto"; border: none; }
+QPushButton#linkBtn { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; border: none; }
+QPushButton#linkBtn:hover { font-size: 10pt; color: #FFF; font-family: "Roboto"; border: none; }
 QDateTimeEdit { padding-left: 5px; padding-right: 5px; background: QLinearGradient(x1: 1, y1: 0, x2: 1, y2: 1, stop: 0 #8899ad, stop: 1 #FFF); selection-color: #FFFFFF; selection-background-color: #016AFF; border: 1px solid #FFF; color: #FFFFFF; font-size: 13pt; font-family: "Roboto"; }
 QDateTimeEdit::drop-down { image: url(:/icons/accordion-arrow); width: 22px; border: 0; }
 QDateTimeEdit QAbstractItemView { background-color: #051937; }
@@ -104,7 +105,7 @@ BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #6F8097; font-family: "
 BlocknetBreadCrumb QPushButton:checked { color: #74B2FE; }
 BlocknetIconBtn #title { font-size: 10pt; color: white; font-family: "Roboto"; }
 BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: #016AFF; text-align: left; padding-left: 20px; border: none; background-color: transparent; }
-BlocknetLabelBtn:!hover { color: #fbf206; }
+BlocknetLabelBtn:!hover { color: #c0c0c0; }
 BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
 BlocknetLabelBtn:disabled { color: #6F8097; }
