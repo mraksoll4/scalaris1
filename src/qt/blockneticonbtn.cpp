@@ -36,7 +36,6 @@ BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFram
         iconLbl->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         iconLbl->setAlignment(Qt::AlignCenter);
         iconLbl->setWordWrap(true);
-        iconLbl->setFixedWidth(circlew + BGU::spi(30));
         layout->addWidget(iconLbl);
     }
 
