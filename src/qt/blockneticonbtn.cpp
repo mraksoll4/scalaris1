@@ -40,7 +40,6 @@ BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFram
     }
 
     this->adjustSize();
-    auto sh = sizeHint();
 }
 
 BlocknetIconBtn::BlocknetIconBtn(const QString &img, QFrame *parent) : BlocknetIconBtn(QString(), img, parent) {}
