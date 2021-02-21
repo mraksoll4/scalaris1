@@ -30,7 +30,6 @@ protected:
 public:
     explicit BlocknetIconBtn(const QString &title, const QString &img, QFrame *parent = nullptr);
     explicit BlocknetIconBtn(const QString &img, QFrame *parent = nullptr);
-    QSize sizeHint() const override;
 
 Q_SIGNALS:
     void clicked();
