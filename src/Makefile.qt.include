@@ -494,7 +494,7 @@ RES_ICONS += \
   qt/res/redesign/icons/UtilityBar/StakingNodeIconActive.png \
   qt/res/redesign/icons/UtilityBar/StakingNodeIconInactive.png \
   qt/res/redesign/icons/UtilityBar/UnlockedIcon.png \
-  qt/res/redesign/white_blocknet_logo.png \
+  qt/res/redesign/scalaris_logo.png \
   qt/res/redesign/css/stylesheet.qss
 
 BITCOIN_QT_BASE_CPP = \

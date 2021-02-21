@@ -22,7 +22,7 @@ QComboBox QAbstractItemView { background-color: #7b8ca2; font-size: 10pt; color:
 QComboBox QAbstractItemView::item { background-color: #7b8ca2; font-size: 10pt; color: white; font-family: "Roboto"; }
 QRadioButton { font-size: 10pt; font-family: "Roboto"; color: white; spacing: 10px; }
 QRadioButton:disabled { color: #0C2448; }
-QRadioButton:indicator { width: 24px; height: 24px; border: 1px solid #FFF; border-radius: 12px; }
+QRadioButton:indicator { width: 24px; height: 24px; border: 1px solid #FFF; border-radius: 0; }
 QRadioButton:indicator:checked { background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.52, stop:0 #35f907, stop:0.65 #35f907, stop:0.70 rgba(0,0,0,0), stop:1 rgba(0,0,0,0)); }
 QRadioButton:indicator:disabled { background-color: transparent; }
 QCheckBox { font-size: 10pt; font-family: "Roboto"; color: white; spacing: 10px; }
