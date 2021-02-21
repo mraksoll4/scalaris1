@@ -40,7 +40,6 @@ BlocknetTransactionHistory::BlocknetTransactionHistory(WalletModel *w, QWidget *
     titleLbl = new QLabel(tr("Transaction History"));
     titleLbl->setObjectName("h4");
     auto *exportBtn = new BlocknetFormBtn;
-	exportBtn->setIcon(":/redesign/Active/AddressBookIcon.png");
     exportBtn->setText(tr("Export History"));
     titleBoxLayout->addWidget(titleLbl, 0, Qt::AlignTop | Qt::AlignLeft);
     titleBoxLayout->addStretch(1);
