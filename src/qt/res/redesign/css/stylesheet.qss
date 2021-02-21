@@ -37,7 +37,7 @@ QCalendarWidget QAbstractItemView:disabled { color: #666; }
 QCalendarWidget QMenu { color: white; background-color: #FFF; font-size: 10pt; font-family: "Roboto"; }
 QCalendarWidget QSpinBox { color: white; background-color: #051937; font-size: 10pt; font-family: "Roboto"; }
 QCalendarWidget QToolButton { color: white; background-color: #051937; font-family: "Roboto"; }
-QTableView, QTableWidget, QTreeWidget { background-color: #e210f4; alternate-background-color: #f9fc01; border-style: none; border: 0; }
+QTableView, QTableWidget, QTreeWidget { background-color: rgba(0, 0, 0, 30%); alternate-background-color: rgba(0, 0, 0, 30%); border-style: none; border: 0; }
 QTableView::item, QTableWidget::item, QTreeWidget::item { font-size: 10pt; font-family: "Roboto"; background-color: #172F49; }
 QTableView::item:alternate, QTableWidget::item:alternate, QTreeWidget::item:alternate { background-color: #0F2743; }
 QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::selected { color: white; background-color: #016AFF; }
