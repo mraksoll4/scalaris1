@@ -61,6 +61,30 @@ QSize BlocknetIconBtn::sizeHint() const {
         return { circlew + BGU::spi(1), circleh + BGU::spi(1) };
 }
 
+void BlocknetIconBtn::paintEvent(QPaintEvent *event) {
+    QFrame::paintEvent(event);
+
+    const int linew = BGU::spi(2);
+    const int linew2 = linew/2;
+    auto w = static_cast<qreal>(this->width());
+    auto cw = static_cast<qreal>(circlew);
+    auto ch = static_cast<qreal>(circleh);
+
+    QPainter p(this);
+    p.setRenderHint(QPainter::HighQualityAntialiasing);
+    QPen pen(QColor(0, 0, 0, 255), linew, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+    p.setPen(pen);
+
+    QPainterPath path;
+    path.addEllipse(w/2 - cw/2 + linew2, linew2, cw - linew2, ch - linew2);
+
+    if (hoverState)
+        p.fillPath(path, QColor(0, 0, 0, 255));
+
+    p.drawPath(path);
+    icon->move(w/2 - icon->width()/2, ch/2 - icon->height()/2);
+}
+
 void BlocknetIconBtn::mouseReleaseEvent(QMouseEvent *event) {
     QWidget::mouseReleaseEvent(event);
     QRect rect(0, 0, this->width(), this->height());
