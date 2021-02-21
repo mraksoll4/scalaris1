@@ -11,8 +11,8 @@
 #include <QPainter>
 
 BlocknetIconBtn::BlocknetIconBtn(const QString &title, const QString &img, QFrame *parent) : QFrame(parent),
-                                                                                             circlew(BGU::spi(5)),
-                                                                                             circleh(BGU::spi(5)),
+                                                                                             circlew(BGU::spi(1)),
+                                                                                             circleh(BGU::spi(1)),
                                                                                              hoverState(false),
                                                                                              iconLbl(nullptr)
 {
