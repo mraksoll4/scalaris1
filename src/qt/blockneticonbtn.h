@@ -13,7 +13,6 @@ class BlocknetIconBtn : public QFrame
 {
     Q_OBJECT
 protected:
-    void paintEvent(QPaintEvent *event) override;
     void enterEvent(QEvent *event) override {
         QWidget::enterEvent(event);
         hoverState = true;
