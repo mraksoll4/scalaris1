@@ -38,7 +38,7 @@ QCalendarWidget QMenu { color: white; background-color: #FFF; font-size: 10pt; f
 QCalendarWidget QSpinBox { color: white; background-color: #051937; font-size: 10pt; font-family: "Roboto"; }
 QCalendarWidget QToolButton { color: white; background-color: #051937; font-family: "Roboto"; }
 QTableView, QTableWidget, QTreeWidget { background-color: rgba(0, 0, 0, 30%); alternate-background-color: rgba(0, 0, 0, 30%); border-style: none; border: 0; }
-QTableView::item, QTableWidget::item, QTreeWidget::item { font-size: 10pt; font-family: "Roboto"; border: 1px solid #fff; background-color: rgba(0, 0, 0, 30%); }
+QTableView::item, QTableWidget::item, QTreeWidget::item { font-size: 10pt; font-family: "Roboto"; border: 1px solid rgba(0, 0, 0, 50%); background-color: rgba(0, 0, 0, 30%); }
 QTableView::item:alternate, QTableWidget::item:alternate, QTreeWidget::item:alternate { border: 1px solid #000; background-color: rgba(0, 0, 0, 30%); }
 QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::selected { color: white; background-color: #016AFF; }
 QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: #547e7a; border-style: none; border: 0; }
@@ -121,7 +121,7 @@ BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 
 BlocknetProposals #h4 { padding-left: 1px; }
 BlocknetProposals #title { font-size: 12pt; color: white; font-family: "Roboto"; }
-BlocknetProposals QTableWidget { color: white; background-color: #FFF; }
+BlocknetProposals QTableWidget { color: white; background-color: #fc2401; }
 BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
 BlocknetProposals QTableWidget QHeaderView::section { background-color: #547e7a; }
 BlocknetProposals QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
