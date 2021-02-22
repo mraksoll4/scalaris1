@@ -223,7 +223,7 @@ BlocknetPeerDetails {background-color: transparent; }
 BlocknetPeerDetails #detailLbl { color: transparent; font-size: 12pt; }
 
 BlocknetCoinControl QTableWidget, BlocknetCoinControl QTreeWidget { color: white; }
-#coinControlDialog { background-color: #172F49; }
+#coinControlDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
 #coinControlDialog #feePanel { background-color: #172F49; }
 #coinControlDialog #feePanel QLabel { font-size: 13pt; color: white; font-family: "Roboto"; }
 
@@ -236,12 +236,12 @@ BlocknetSettings QScrollArea { background-color:transparent; }
 BlocknetSettings BlocknetLabelBtn { padding-left: 5px; }
 BlocknetSettings #title { font-size: 10pt; color: white; font-family: "Roboto"; }
 BlocknetSettings #contentFrame { background-color:transparent; }
-BlocknetSettings #description { font-size: 10pt; color: #6F8097 }
+BlocknetSettings #description { font-size: 10pt; color: c0c0c0 }
 
 BlocknetDebugConsole #console { font-family: "Roboto Mono"; }
-BlocknetDebugConsole #consoleOutput { color: white; background-color: #172F49; padding: 10px 15px; font-family: "Roboto Mono"; border: 0; }
+BlocknetDebugConsole #consoleOutput { color: white; background-color:  rgba(0, 0, 0, 30%); padding: 10px 15px; font-family: "Roboto Mono"; border: 0; }
 BlocknetDebugConsole #consoleBox QLabel { color: white; font-family: "RobotoMono"; }
-BlocknetDebugConsole #consoleBox QLineEdit { font-size: 10pt; color: white; font-family: "Roboto Mono"; padding-left: 15px; border: 1px solid #6F8097; border-radius: 0; background-color: rgba(0,0,0,0); }
+BlocknetDebugConsole #consoleBox QLineEdit { font-size: 10pt; color: white; font-family: "Roboto Mono"; padding-left: 15px; border: 1px solid #000; border-radius: 0; background-color: rgba(0, 0, 0, 30%); }
 
 BlocknetWalletRepair QScrollArea { background-color:transparent; }
 BlocknetWalletRepair #notes { font-size: 10pt; color: white; font-family: "Roboto"; }
