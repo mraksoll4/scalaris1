@@ -50,7 +50,7 @@ QTableView::indicator:unchecked, QTableWidget::indicator:unchecked, QTreeWidget:
 QTableView::indicator:indeterminate, QTableWidget::indicator:indeterminate, QTreeWidget::indicator:indeterminate { image: url(:/redesign/checkmark-partial); }
 QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWidget QHeaderView::down-arrow { image: url(:/redesign/HeaderViewArrowDown); }
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
-QTreeWidget::branch { color: #CCC; }
+QTreeWidget::branch { color: rgba(0, 0, 0, 30%); }
 
 BlocknetLeftMenu { background-color: rgba(0, 0, 0, 30%); }
 BlocknetLeftMenu BlocknetIconLabel { border: 0; text-align: left; }
