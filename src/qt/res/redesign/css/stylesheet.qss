@@ -28,7 +28,7 @@ QRadioButton:indicator:disabled { background-color: transparent; }
 QCheckBox { font-size: 10pt; font-family: "Roboto"; color: white; spacing: 10px; }
 QPushButton#linkBtn { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; border: none; }
 QPushButton#linkBtn:hover { font-size: 10pt; color: #FFF; font-family: "Roboto"; border: none; }
-QDateTimeEdit { padding-left: 5px; padding-right: 5px; background: rgba(0, 0, 0, 30%); selection-color: #FFFFFF; selection-background-color: rgba(0, 0, 0, 30%); border: 0; color: #FFFFFF; font-size: 13pt; font-family: "Roboto"; }
+QDateTimeEdit { padding-left: 5px; padding-right: 5px; background: rgba(0, 0, 0, 30%); selection-color: #FFFFFF; selection-background-color: rgba(0, 0, 0, 30%); border: 1px solid #000; color: #FFFFFF; font-size: 13pt; font-family: "Roboto"; }
 QDateTimeEdit::drop-down { image: url(:/icons/accordion-arrow); width: 22px; border: 0; }
 QDateTimeEdit QAbstractItemView { background-color: rgba(0, 0, 0, 30%); }
 QCalendarWidget QWidget#qt_calendar_navigationbar { background-color: rgba(0, 0, 0, 30%); }
@@ -50,7 +50,7 @@ QTableView::indicator:unchecked, QTableWidget::indicator:unchecked, QTreeWidget:
 QTableView::indicator:indeterminate, QTableWidget::indicator:indeterminate, QTreeWidget::indicator:indeterminate { image: url(:/redesign/checkmark-partial); }
 QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWidget QHeaderView::down-arrow { image: url(:/redesign/HeaderViewArrowDown); }
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
-QTreeWidget::branch { color: #rgba(0, 0, 0, 30%); }
+QTreeWidget::branch { color: #CCC; }
 
 BlocknetLeftMenu { background-color: rgba(0, 0, 0, 30%); }
 BlocknetLeftMenu BlocknetIconLabel { border: 0; text-align: left; }
