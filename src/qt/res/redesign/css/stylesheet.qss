@@ -78,7 +78,7 @@ BlocknetLockMenu QPushButton:!hover { color: #016AFF; background-color: white; }
 BlocknetLockMenu QPushButton:hover { color: white; background-color: #016AFF; }
 BlocknetLockMenu #hdiv { background-color: #CCCCCC; }
 
-BlocknetDropdown { font-size: 10pt; font-family: "Roboto"; background: QLinearGradient(x1: 1, y1: 0, x2: 1, y2: 1, stop: 0 #8899ad, stop: 1 #6F8097); selection-color: #FFFFFF; selection-background-color: #37475C; border: 1px solid #6F8097; color: #FFFFFF; }
+BlocknetDropdown { font-size: 10pt; font-family: "Roboto"; background: QLinearGradient(x1: 1, y1: 0, x2: 1, y2: 1, stop: 0 #8899ad, stop: 1 #6F8097); selection-color: #FFFFFF; selection-background-color: #c0c0c0; border: 1px solid #6F8097; color: #FFFFFF; }
 BlocknetDropdown::drop-down { width: 35px; border: 0px; }
 BlocknetDropdown QAbstractItemView { background: #6F8097; background-color: #6F8097; }
 
@@ -92,19 +92,20 @@ BlocknetAddressEditor:disabled { border: 1px solid #333333; color: #333333; }
 BlocknetAddressEditor #placeholder { font-size: 10pt; color: #666666; font-family: "Roboto"; }
 BlocknetFormBtn { font-size: 10pt; font-family: "Roboto"; color: white; background-color: #016AFF; border: 1px solid #095FD8; }
 BlocknetFormBtn:hover { background-color: #0051C3; }
-BlocknetFormBtn:disabled { background-color: #37475C; border: 1px solid #243040; color: #6F8097; }
+BlocknetFormBtn:disabled { background-color: #c0c0c0; border: 1px solid #243040; color: #6F8097; }
 BlocknetFormBtn#cancel { background-color: rgba(0,0,0,0); }
 BlocknetFormBtn#cancel:hover { background-color: #016AFF; }
-BlocknetFormBtn#cancel:disabled { border: 1px solid #37475C; color: #6F8097; }
+BlocknetFormBtn#cancel:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
 BlocknetFormBtn#delete { background-color: #FF5656; border: 1px solid #FF4747; }
 BlocknetFormBtn#delete:hover { background-color: #FF3B3B; }
-BlocknetFormBtn#delete:disabled { border: 1px solid #37475C; color: #6F8097; }
+BlocknetFormBtn#delete:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
 BlocknetActionBtn { background-color: transparent; }
-BlocknetActionBtn:hover { background-color: #37475C; }
+BlocknetActionBtn:hover { background-color: #c0c0c0; }
 BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #6F8097; font-family: "Roboto"; border: none; }
 BlocknetBreadCrumb QPushButton:checked { color: #74B2FE; }
 BlocknetIconBtn #title { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
-BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: #016AFF; text-align: left; padding-left: 20px; border: none; background-color: transparent; }
+BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: #016AFF; text-align: left; padding-left: 20px; border: none; background-color: transpa;]
+rent; }
 BlocknetLabelBtn:!hover { color: #c0c0c0; }
 BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
@@ -123,7 +124,7 @@ BlocknetAvatar #title { font-size: 13pt; font-family: "Roboto"; color: white; }
 BlocknetProposals #h4 { padding-left: 1px; }
 BlocknetProposals #title { font-size: 12pt; color: white; font-family: "Roboto"; }
 BlocknetProposals QTableWidget { color: white; background-color: rgba(0, 0, 0, 30%); }
-BlocknetProposals QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
+BlocknetProposals QTableWidget QHeaderView { color: #c0c0c0; background-color: transparent; }
 BlocknetProposals QTableWidget QHeaderView::section { background-color: rgba(0, 0, 0, 30%); }
 BlocknetProposals QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetProposals QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
@@ -141,7 +142,7 @@ BlocknetCreateProposalPage #charcount { font-size: 10pt; color: white; font-fami
 BlocknetServiceNodes #h4 { padding-left: 1px; }
 BlocknetServiceNodes #title { font-size: 12pt; color: white; font-family: "Roboto"; }
 BlocknetServiceNodes QTableWidget { color: white; background-color: transparent; }
-BlocknetServiceNodes QTableWidget QHeaderView { color: #37475C; background-color: transparent; }
+BlocknetServiceNodes QTableWidget QHeaderView { color: #c0c0c0; background-color: transparent; }
 BlocknetServiceNodes QTableWidget QHeaderView::section { background-color: rgba(0, 0, 0, 30%); }
 BlocknetServiceNodes QTableWidget #indicator[state="0"] { background-color: #4BF5C6; }
 BlocknetServiceNodes QTableWidget #indicator[state="1"] { background-color: #F8BF1C; }
@@ -193,7 +194,7 @@ BlocknetFundsMenu QPushButton:hover { color: white; background-color: #016AFF; }
 BlocknetAddressBook #h4 { padding-left: 1px; }
 BlocknetAddressBook #title { font-size: 11pt; color: white; font-family: "Roboto"; }
 BlocknetAddressBook QTableWidget { color: white; background-color: transparent; }
-BlocknetAddressBook QTableWidget QHeaderView { color: #37475C; }
+BlocknetAddressBook QTableWidget QHeaderView { color: #c0c0c0; }
 BlocknetAddressBook QTableWidget::item { padding: 3px; }
 BlocknetAddressBook QTableWidget::item::selected BlocknetLabelBtn { color: white; }
 BlocknetAddressBookDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
@@ -201,7 +202,7 @@ BlocknetAddressBookDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 
 BlocknetAccounts #h4 { padding-left: 1px; }
 BlocknetAccounts #title { font-size: 11pt; color: white; font-family: "Roboto"; }
 BlocknetAccounts QTableWidget { color: white; background-color: transparent; }
-BlocknetAccounts QTableWidget QHeaderView { color: #37475C; }
+BlocknetAccounts QTableWidget QHeaderView { color: #c0c0c0; }
 BlocknetAccounts QTableWidget::item::selected BlocknetLabelBtn { color: white; }
 
 BlocknetAddressEditDialog, BlocknetAddressAddDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
