@@ -97,7 +97,7 @@ BlocknetFormBtn#cancel { background-color: rgba(0, 0, 0, 30%); }
 BlocknetFormBtn#cancel:hover { background-color: rgba(0, 0, 0, 50%); }
 BlocknetFormBtn#cancel:disabled { border: 1px solid #c0c0c0; color: #c0c0c0; }
 BlocknetFormBtn#delete { background-color: rgba(0, 0, 0, 30%); border: 0; }
-BlocknetFormBtn#delete:hover { background-color: color: rgba(0, 0, 0, 50%); }
+BlocknetFormBtn#delete:hover { background-color: rgba(0, 0, 0, 50%); }
 BlocknetFormBtn#delete:disabled { border: 0; color: #c0c0c0; }
 BlocknetActionBtn { background-color: transparent; }
 BlocknetActionBtn:hover { background-color: #c0c0c0; }
