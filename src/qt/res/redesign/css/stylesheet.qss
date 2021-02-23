@@ -101,11 +101,10 @@ BlocknetFormBtn#delete:hover { background-color: #FF3B3B; }
 BlocknetFormBtn#delete:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
 BlocknetActionBtn { background-color: transparent; }
 BlocknetActionBtn:hover { background-color: #c0c0c0; }
-BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #6F8097; font-family: "Roboto"; border: none; }
-BlocknetBreadCrumb QPushButton:checked { color: #74B2FE; }
+BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; border: none; }
+BlocknetBreadCrumb QPushButton:checked { color: #FFF; }
 BlocknetIconBtn #title { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
-BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: #016AFF; text-align: left; padding-left: 20px; border: none; background-color: transpa;]
-rent; }
+BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: #016AFF; text-align: left; padding-left: 20px; border: none; background-color: transparent; }
 BlocknetLabelBtn:!hover { color: #c0c0c0; }
 BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
