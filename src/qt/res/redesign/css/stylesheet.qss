@@ -96,16 +96,16 @@ BlocknetFormBtn:disabled { background-color: #c0c0c0; border: 0; color: rgba(0, 
 BlocknetFormBtn#cancel { background-color: rgba(0, 0, 0, 30%); }
 BlocknetFormBtn#cancel:hover { background-color: rgba(0, 0, 0, 50%); }
 BlocknetFormBtn#cancel:disabled { border: 1px solid #c0c0c0; color: #c0c0c0; }
-BlocknetFormBtn#delete { background-color: #FF5656; border: 1px solid #FF4747; }
-BlocknetFormBtn#delete:hover { background-color: #FF3B3B; }
-BlocknetFormBtn#delete:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
+BlocknetFormBtn#delete { background-color: color: rgba(0, 0, 0, 30%); border: 0; }
+BlocknetFormBtn#delete:hover { background-color: color: rgba(0, 0, 0, 50%); }
+BlocknetFormBtn#delete:disabled { border: 0; color: #c0c0c0; }
 BlocknetActionBtn { background-color: transparent; }
 BlocknetActionBtn:hover { background-color: #c0c0c0; }
 BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; border: none; }
 BlocknetBreadCrumb QPushButton:checked { color: #FFF; }
 BlocknetIconBtn #title { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
 BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: rgba(0, 0, 0, 30%); text-align: left; padding-left: 20px; border: none; background-color: transparent; }
-BlocknetLabelBtn:!hover { color: rgba(0, 0, 0, 50%); }
+BlocknetLabelBtn:!hover { color: #c0c0c0; }
 BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
 BlocknetLabelBtn:disabled { color: #c0c0c0; }
