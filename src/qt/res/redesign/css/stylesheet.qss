@@ -222,7 +222,7 @@ BlocknetPeersList QTableView::item { padding: 3px; }
 BlocknetPeerDetails {background-color: transparent; }
 BlocknetPeerDetails #detailLbl { color: transparent; font-size: 12pt; }
 
-BlocknetCoinControl QTableWidget, BlocknetCoinControl QTreeWidget { color: white; }
+BlocknetCoinControl QTableWidget, BlocknetCoinControl QTreeWidget { color: white; background-color: rgba(0, 0, 0, 30%); }
 #coinControlDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
 #coinControlDialog #feePanel { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
 #coinControlDialog #feePanel QLabel { font-size: 13pt; color: white; font-family: "Roboto"; }
