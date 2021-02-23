@@ -93,7 +93,7 @@ BlocknetAddressEditor #placeholder { font-size: 10pt; color: #666666; font-famil
 BlocknetFormBtn { font-size: 10pt; font-family: "Roboto"; color: white; background-color: rgba(0, 0, 0, 30%); border: 0; }
 BlocknetFormBtn:hover { background-color: rgba(0, 0, 0, 50%); }
 BlocknetFormBtn:disabled { background-color: #c0c0c0; border: 1px solid #с0с0с0; color: #с0с0с0; }
-BlocknetFormBtn#cancel { background-color: rgba(0,0,0,30); }
+BlocknetFormBtn#cancel { background-color: rgba(0, 0, 0, 30%); }
 BlocknetFormBtn#cancel:hover { background-color: rgba(0, 0, 0, 50%); }
 BlocknetFormBtn#cancel:disabled { border: 0; color: #с0с0с0; }
 BlocknetFormBtn#delete { background-color: #FF5656; border: 1px solid #FF4747; }
