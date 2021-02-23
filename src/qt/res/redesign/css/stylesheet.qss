@@ -90,25 +90,25 @@ BlocknetLineEditWithTitle #lineEditTitle { font-size: 9pt; font-family: "Roboto"
 BlocknetAddressEditor { font-size: 10pt; color: white; font-family: "Roboto"; padding-top: 3px; border: 1px solid #000; border-radius: 0; background-color: rgba(0,0,0,0); }
 BlocknetAddressEditor:disabled { border: 1px solid #333333; color: #333333; }
 BlocknetAddressEditor #placeholder { font-size: 10pt; color: #666666; font-family: "Roboto"; }
-BlocknetFormBtn { font-size: 10pt; font-family: "Roboto"; color: white; background-color: rgba(0, 0, 0, 30%); border: 0; }
+BlocknetFormBtn { font-size: 10pt; font-family: "Roboto"; color: white; background-color: rgba(0, 0, 0, 30%); border: 1px solid #095FD8; }
 BlocknetFormBtn:hover { background-color: rgba(0, 0, 0, 50%); }
-BlocknetFormBtn:disabled { background-color: #c0c0c0; border: 1px solid #с0с0с0; color: #с0с0с0; }
-BlocknetFormBtn#cancel { background-color: rgba(0,0,0,30); }
-BlocknetFormBtn#cancel:hover { background-color: rgba(0, 0, 0, 50%); }
-BlocknetFormBtn#cancel:disabled { border: 0; color: #с0с0с0; }
+BlocknetFormBtn:disabled { background-color: #c0c0c0; border: 1px solid #000; color: #6F8097; }
+BlocknetFormBtn#cancel { background-color: rgba(0,0,0,0); }
+BlocknetFormBtn#cancel:hover { background-color: rgba(0, 0, 0, 30%); }
+BlocknetFormBtn#cancel:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
 BlocknetFormBtn#delete { background-color: #FF5656; border: 1px solid #FF4747; }
 BlocknetFormBtn#delete:hover { background-color: #FF3B3B; }
-BlocknetFormBtn#delete:disabled { border: 1px solid #c0c0c0; color: #с0с0с0; }
+BlocknetFormBtn#delete:disabled { border: 1px solid #c0c0c0; color: #6F8097; }
 BlocknetActionBtn { background-color: transparent; }
 BlocknetActionBtn:hover { background-color: #c0c0c0; }
 BlocknetBreadCrumb QPushButton { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; border: none; }
 BlocknetBreadCrumb QPushButton:checked { color: #FFF; }
 BlocknetIconBtn #title { font-size: 10pt; color: #FFF; font-family: "Roboto"; }
 BlocknetLabelBtn { font-size: 10pt; font-family: "Roboto"; color: rgba(0, 0, 0, 30%); text-align: left; padding-left: 20px; border: none; background-color: transparent; }
-BlocknetLabelBtn:!hover { color: rgba(0, 0, 0, 30%); }
+BlocknetLabelBtn:!hover { color: #c0c0c0; }
 BlocknetLabelBtn:hover { color: white; }
 BlocknetLabelBtn:pressed { color: white; }
-BlocknetLabelBtn:disabled { color: #с0с0с0; }
+BlocknetLabelBtn:disabled { color: #6F8097; }
 BlocknetDialog { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); }
 BlocknetDialog #h3 { background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #546e7a, stop: 1 #54af7a); border: 0; }
 BlocknetTabBtn { font-size: 10pt; color: #c0c0c0; font-family: "Roboto"; background-color: transparent; }
